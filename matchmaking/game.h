@@ -1,4 +1,4 @@
-//===== Copyright © 1996-2009, Valve Corporation, All rights reserved. ======//
+//===== Copyright Â© 1996-2009, Valve Corporation, All rights reserved. ======//
 //
 // Purpose: 
 //
@@ -12,8 +12,10 @@
 #include "matchmaking/igame.h"
 #include "utlvector.h"
 
-//In an idea world game is manageing all of the aspects of the game session, however in our case 
-//it will serve as an interface into the engine and matchmaking to get the information we need.
+
+//Without the retards who made the game spelling "managing" as "manageing" and "ideal" as "idea". How can people who don't know English, be trusted to write a game in English.
+//In an ideal world the game is managing all of the aspects of the game session, however in our case, 
+//it will serve as an interface into the engine and matchmaking to get the information we need for leaderboards.
 class CMatchGame : public IMatchGame
 {
 public:
